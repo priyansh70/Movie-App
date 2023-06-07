@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  scroll-behavior: smooth;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(-1px);
+}
+
+.black__gradient {
+  background-image: linear-gradient(
+    144.39deg,
+    #ffffff -208.56%,
+    #6d6d6d -200.47%,
+    #11101d 1.61%
+  );;
+}
+
