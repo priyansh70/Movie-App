@@ -82,7 +82,7 @@ function MovieBookingPage() {
                     <input
                         type="text"
                         name="name"
-                        placeholder="First Name"
+                        placeholder="Name"
                         value={formData.name}
                         onChange={changeHandler}
                         className={`${inputStyle}`}
